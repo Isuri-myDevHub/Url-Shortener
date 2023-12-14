@@ -1,5 +1,5 @@
 // Package declaration for the URL shortener logic
-package lk.ijse.dep11.URL_Shortner.logic;
+package lk.isuri.devhub.URL_Shortner.logic;
 
 // Import necessary classes
 import com.google.common.hash.Hashing;

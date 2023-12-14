@@ -1,6 +1,6 @@
-package lk.ijse.dep11.URL_Shortner.repository;
+package lk.isuri.devhub.URL_Shortner.repository;
 
-import lk.ijse.dep11.URL_Shortner.modal.Url;
+import lk.isuri.devhub.URL_Shortner.modal.Url;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

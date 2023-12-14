@@ -1,4 +1,4 @@
-package lk.ijse.dep11.URL_Shortner.modal;
+package lk.isuri.devhub.URL_Shortner.modal;
 
 
 import jakarta.persistence.Entity;

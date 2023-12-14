@@ -1,7 +1,7 @@
-package lk.ijse.dep11.URL_Shortner.controller;
+package lk.isuri.devhub.URL_Shortner.controller;
 
-import lk.ijse.dep11.URL_Shortner.modal.Url;
-import lk.ijse.dep11.URL_Shortner.service.UrlService;
+import lk.isuri.devhub.URL_Shortner.modal.Url;
+import lk.isuri.devhub.URL_Shortner.service.UrlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

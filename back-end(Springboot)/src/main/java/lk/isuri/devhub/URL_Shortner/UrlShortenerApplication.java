@@ -1,4 +1,4 @@
-package lk.ijse.dep11.URL_Shortner;
+package lk.isuri.devhub.URL_Shortner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

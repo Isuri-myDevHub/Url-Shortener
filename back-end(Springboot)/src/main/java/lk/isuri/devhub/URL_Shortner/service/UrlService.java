@@ -1,12 +1,12 @@
-package lk.ijse.dep11.URL_Shortner.service;
+package lk.isuri.devhub.URL_Shortner.service;
 
-import lk.ijse.dep11.URL_Shortner.modal.Url;
-import lk.ijse.dep11.URL_Shortner.repository.UrlRepository;
+import lk.isuri.devhub.URL_Shortner.modal.Url;
+import lk.isuri.devhub.URL_Shortner.repository.UrlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import static lk.ijse.dep11.URL_Shortner.logic.GenerateShortUrl.getShortUrl;
-import static lk.ijse.dep11.URL_Shortner.logic.GenerateShortUrl.isUrlValid;
+import static lk.isuri.devhub.URL_Shortner.logic.GenerateShortUrl.getShortUrl;
+import static lk.isuri.devhub.URL_Shortner.logic.GenerateShortUrl.isUrlValid;
 
 @Service
 public class UrlService {
