@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import static lk.ijse.dep11.URL_Shortner.logic.GenerateShortUrl.getShortUrl;
+import static lk.ijse.dep11.URL_Shortner.logic.GenerateShortUrl.isUrlValid;
 
 @Service
 public class UrlService {
@@ -24,6 +25,12 @@ public class UrlService {
      Generates a short URL for the provided original URL and saves it to the repository.
      */
     public Url generateShortUrl(String url) {
+
+       // Validates a URL and prints a message if it is not valid.
+            if(! isUrlValid(url)) {
+                System.out.println("URL is not valid");
+                return null;
+            }
 
         // Create a new Url object
         Url urlObject = new Url();
